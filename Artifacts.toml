@@ -1,61 +1,143 @@
 [[Blosc2]]
-arch = "i686"
-git-tree-sha1 = "939e2017815764457838654ba569441f0a1a7e1a"
-libc = "glibc"
-os = "linux"
-
-    [[Blosc2.download]]
-    sha256 = "baff1cd36b6db4b766251280b1bd5fdbfdeb0f79baffbb5853eafcc289bf2a94"
-    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v1.9.9+0/Blosc2.v1.9.9.i686-linux-gnu.tar.gz"
-[[Blosc2]]
-arch = "i686"
-git-tree-sha1 = "7da39d831efb8bdbc232070d7b3328ef25e95f51"
-libc = "musl"
-os = "linux"
-
-    [[Blosc2.download]]
-    sha256 = "e123237cc941a9ed12a2d7033cdca8b442bb56bca73a54c1841f5507d70acddf"
-    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v1.9.9+0/Blosc2.v1.9.9.i686-linux-musl.tar.gz"
-[[Blosc2]]
-arch = "powerpc64le"
-git-tree-sha1 = "f25de4a0213576d51e2cd8cad61e4ce747a8b387"
-libc = "glibc"
-os = "linux"
-
-    [[Blosc2.download]]
-    sha256 = "3ce8ffd420aeb9a0a7cf20f59e18771bf7f95af300799156698edaf379e3461b"
-    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v1.9.9+0/Blosc2.v1.9.9.powerpc64le-linux-gnu.tar.gz"
-[[Blosc2]]
-arch = "x86_64"
-git-tree-sha1 = "6e0f25e78905bf6953c43b4c3e6ebe21661785ea"
+arch = "aarch64"
+git-tree-sha1 = "1227bcd2dcdcc6d6e69c08cbe1266c7ed70ca065"
 os = "macos"
 
     [[Blosc2.download]]
-    sha256 = "6bf4b597f1c138eaaf94fac95986e6575b128f227a8e1eb83f89cd8b84a1cb34"
-    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v1.9.9+0/Blosc2.v1.9.9.x86_64-apple-darwin.tar.gz"
+    sha256 = "3a49f13b7269ea917d97a89532fabfcd06aedd730f9e502774508ac6bd696d37"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.aarch64-apple-darwin.tar.gz"
 [[Blosc2]]
-arch = "x86_64"
-git-tree-sha1 = "e8f8d51b2b8809bb2300f38aff6db01d2d834a7c"
+arch = "aarch64"
+git-tree-sha1 = "1cfce2ac3fb1740eb9dd02268ce29ce4be065f98"
 libc = "glibc"
 os = "linux"
 
     [[Blosc2.download]]
-    sha256 = "40b5e91a658c82bfbcc94925954fbae10774c95d9fd574fcaf9209c8cf85dc9a"
-    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v1.9.9+0/Blosc2.v1.9.9.x86_64-linux-gnu.tar.gz"
+    sha256 = "1958cc76cbaa72242b3d2d5f2a3b1a2c12c6cd332b9772fe659df533a32c0cb5"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.aarch64-linux-gnu.tar.gz"
 [[Blosc2]]
-arch = "x86_64"
-git-tree-sha1 = "163a9117eb4037df4bb98173f68be88fdf2bb940"
+arch = "aarch64"
+git-tree-sha1 = "087498a6c0ee096fea7e552a381a92384d70761f"
 libc = "musl"
 os = "linux"
 
     [[Blosc2.download]]
-    sha256 = "d28a73c8334306e07b8f7221899de46382a0e350b3f883c1d082e6e25e72296d"
-    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v1.9.9+0/Blosc2.v1.9.9.x86_64-linux-musl.tar.gz"
+    sha256 = "49f4d7a3d7e827368ea9dc655159956f65be13b9295b0c80b9d969c2918396fc"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.aarch64-linux-musl.tar.gz"
+[[Blosc2]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "97265fd68dd773e7717926d98f759a08f7b88476"
+libc = "glibc"
+os = "linux"
+
+    [[Blosc2.download]]
+    sha256 = "f2c71cacbb64103b88cdfb12a7a3118c8829bc358aa62ddc355a4dea825f98cd"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.armv6l-linux-gnueabihf.tar.gz"
+[[Blosc2]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "91198a94e20955d7f71b26481774825788b711aa"
+libc = "musl"
+os = "linux"
+
+    [[Blosc2.download]]
+    sha256 = "d590275bb2d657c58c3a5ac3e9aa793377d0c86c9168a3fd51aa15b3bbd6394e"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.armv6l-linux-musleabihf.tar.gz"
+[[Blosc2]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "49ac27506301cdafcd0effa85097577627392756"
+libc = "glibc"
+os = "linux"
+
+    [[Blosc2.download]]
+    sha256 = "b2c41d25e2a99c84df103964fd39a89572a4d83e7264c89fe1a4cc67a3ad3ff1"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.armv7l-linux-gnueabihf.tar.gz"
+[[Blosc2]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "a00d20840c7735380194ca5bde8518ce0d1929dc"
+libc = "musl"
+os = "linux"
+
+    [[Blosc2.download]]
+    sha256 = "e283a6270057a3bffe0be5aa7e9ec116e70bbd769c87c33cf0536164ce1c117d"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.armv7l-linux-musleabihf.tar.gz"
+[[Blosc2]]
+arch = "i686"
+git-tree-sha1 = "df5f856900a6cbaa365262a0285f288d0df778cd"
+libc = "glibc"
+os = "linux"
+
+    [[Blosc2.download]]
+    sha256 = "639a91f114d90d7aca631b7e304c50fe77f07aa58abda7a101e515081c13c26e"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.i686-linux-gnu.tar.gz"
+[[Blosc2]]
+arch = "i686"
+git-tree-sha1 = "3cd556aa3d08c240b075cbbfe0e829eed837087e"
+libc = "musl"
+os = "linux"
+
+    [[Blosc2.download]]
+    sha256 = "7a2f35c24b8bac18fad6599aa3eb6ea0ca060d649ac1b8f56a0cca6683c0e775"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.i686-linux-musl.tar.gz"
+[[Blosc2]]
+arch = "i686"
+git-tree-sha1 = "1e61b351eb7a1c4440832efe0338b3a049bcfd3c"
+os = "windows"
+
+    [[Blosc2.download]]
+    sha256 = "c963dbd02e792f6b584c53151a83573489e8628d1a94cd288815eda0a6b87853"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.i686-w64-mingw32.tar.gz"
+[[Blosc2]]
+arch = "powerpc64le"
+git-tree-sha1 = "a547ab5d9ed8abf5bd3da0445a957e2e53f5cca8"
+libc = "glibc"
+os = "linux"
+
+    [[Blosc2.download]]
+    sha256 = "6845cae948d9d189640b4eb4dbab2fd2204085774b2c35b362c80876e4c8301c"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.powerpc64le-linux-gnu.tar.gz"
 [[Blosc2]]
 arch = "x86_64"
-git-tree-sha1 = "a33a90e2a4e1696def030f6f55ea386af14bad65"
+git-tree-sha1 = "0c6b72eb37f6c8eb9449f3bbfd48d580e7635400"
+os = "macos"
+
+    [[Blosc2.download]]
+    sha256 = "cd64838c91374b02acb008a98bf64526e542f02d1665f46639b5b4261d6e9030"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.x86_64-apple-darwin.tar.gz"
+[[Blosc2]]
+arch = "x86_64"
+git-tree-sha1 = "316228aac75707d8d30dd92b0ce6a86558334473"
+libc = "glibc"
+os = "linux"
+
+    [[Blosc2.download]]
+    sha256 = "d2d4224266674abfc3a088fc590694262740d693dae92c20e493d1d0cd3db37d"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.x86_64-linux-gnu.tar.gz"
+[[Blosc2]]
+arch = "x86_64"
+git-tree-sha1 = "0a0ac8ec38e517121f12ab890ae53e84da7b5436"
+libc = "musl"
+os = "linux"
+
+    [[Blosc2.download]]
+    sha256 = "682286e7463d5508884b75c64701129aac8b1c1cfc15c261609bf48405ec032f"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.x86_64-linux-musl.tar.gz"
+[[Blosc2]]
+arch = "x86_64"
+git-tree-sha1 = "7e6947c3f254538a09d05a4a015b84be0ed4eff6"
 os = "freebsd"
 
     [[Blosc2.download]]
-    sha256 = "d4a99389d8f634b284cfc784c96dff40c20c837fe96b33a035607e6c7f023338"
-    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v1.9.9+0/Blosc2.v1.9.9.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "7b144b3a0325403827084a44a7e273b8fb6ff01c17a0468dfc2df4c61e5f0046"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.x86_64-unknown-freebsd.tar.gz"
+[[Blosc2]]
+arch = "x86_64"
+git-tree-sha1 = "2bd5bbbbb2bd68aef874b66dfcd9a9429e30f199"
+os = "windows"
+
+    [[Blosc2.download]]
+    sha256 = "cb047c9f3b80492cf4de209826ca0b365deee739b95f970c69809ff83b7cbfc5"
+    url = "https://github.com/waralex/Block2_jll/releases/download/Blosc2-v2.0.0-rc1+0/Blosc2.v2.0.0-rc1.x86_64-w64-mingw32.tar.gz"
